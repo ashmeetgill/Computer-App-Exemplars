@@ -35,7 +35,7 @@ int imageWidthRatio, imageWidthRatio2, imageWidthRatio3;
 float imageHeightRatio, imageHeightRatio2, imageHeightRatio3;
 
 void setup() {
-  size(1920, 1080);
+  size(700, 500);
   minim = new Minim(this);
   song[0] = minim.loadFile("Mess Call - USAF Heritage of America Band .mp3");
   song[1] = minim.loadFile("The_Sleeping_Prophet.mp3");
